@@ -7,10 +7,13 @@ import {
   Param,
   Patch,
   Post,
+  UseGuards,
 } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
+import { AuthGuard } from 'src/auth/guards/auth.guard';
 import { ExerciseCategoryService } from './exercise-category.service';
 
+@UseGuards(AuthGuard)
 @Controller('exercise-category')
 export class ExerciseCategoryController {
   constructor(

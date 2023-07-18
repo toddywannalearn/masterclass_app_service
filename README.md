@@ -34,8 +34,13 @@ Exercise 1..n ExerciseCategory
 
 
 ## Description
+[Prisma](https://www.prisma.io/docs/getting-started/quickstart) 
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Firebase](https://firebase.google.com/?hl=pt) 
+
+[Nest](https://docs.nestjs.com/) framework TypeScript starter repository.
+
+
 
 ## Installation
 
